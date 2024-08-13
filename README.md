@@ -6,6 +6,7 @@
 Use the application.properties or application.yml file to set up environmental variables
 for Groq.
 
+```yml
 spring.ai.openai.api-key=<GROQ_API_KEY> (Register first then you can generate your api token from here https://console.groq.com/keys)
 
 spring.ai.openai.base-url=https://api.groq.com/openai (The base-url is set to Groq's API endpoint)
@@ -13,6 +14,7 @@ spring.ai.openai.base-url=https://api.groq.com/openai (The base-url is set to Gr
 spring.ai.openai.chat.options.model=llama3-70b-8192(Here you can choose one of the available LLM)
 
 spring.ai.openai.chat.options.temperature=0.7
+```
 
 Initially you can check how does api works with simple controller and send the request:
 
