@@ -1,7 +1,7 @@
-Spring AI with Groq
+# Spring AI with Groq
 
 
-Configuring Spring AI for Groq
+## Configuring Spring AI for Groq
 
 Use the application.properties or application.yml file to set up environmental variables
 for Groq.
@@ -16,11 +16,11 @@ spring.ai.openai.chat.options.temperature=0.7
 
 Initially you can check how does api works with simple controller and send the request:
 
-URL:
+## URL:
 
     http://localhost:8080/ai/generateStream
 
-Request example:
+## Request example:
 
 ```
 {
@@ -28,7 +28,7 @@ Request example:
 }
 ```
 
-Response:
+## Response:
 
 ```
 Bonjour!
@@ -49,11 +49,11 @@ Please note that weather conditions are subject to change, and this information 
 Would you like to know more about Paris or is there something else I can help you with?
 ```
 
-URL:
+## URL:
 
     http://localhost:8080/ai/generate
 
-Request example:
+## Request example:
 
 ```
 {
@@ -61,7 +61,7 @@ Request example:
 }
 ```
 
-Response:
+## Response:
 
 ```
 {
